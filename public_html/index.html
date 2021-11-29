@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TimeTempp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="maincss.css" rel="stylesheet">
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+         <center>
+        <!--contGeneral, tendra la visual desde el titulo de la web hasta los botones de las ciudades-->     
+        <div class="contGeneral">
+            <div class="tituloTT"><h1>TimeTemp</h1></div>
+            <div class="subTT">Averigua la hora, y la temperatura de las siguientes ciudades</div>
+            <div class="city" id="ciudades">
+                <button class="btnCity" onclick="DataSant()" id="Santiago" value="Santiago">Santiago(CL)</button>
+                <button class="btnCity" onclick="DataZur()" id="Zurich" value="Zurich">Zurich (CH)</button>
+                <button class="btnCity" onclick="DataAuck()" id="Auckland" value="Auckland (NZ)">Auckland (NZ)</button>
+                <button class="btnCity" onclick="DataSydn()" id="Sydney" value="Sydney (AU)">Sydney (AU)</button>
+                <button class="btnCity" onclick="DataLond()" id="Londres" value="Londres (UK)">Londres (UK)</button>
+                <button class="btnCity" onclick="DataGeor()" id="Georgia" value="Georgia (USA)">Georgia (USA)</button>
+            </div>
+        </div>   
+        <!--contentInfo corresponde a la visual de los datos recibidos desde la API una vez clickeado un boton-->
+            <div class="contenido" id="contInfo">
+                <div class="hrs" id="horasInfo"></div>
+                <div class="temp" id="temperaturaInfo"></div>
+                <div class="lat" id="latitudInfo"></div>
+                <div class="lon" id="longitudInfo"></div>
+            </div>
+        
+        </center>
+    
+    <script src="js.js"></script>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/*SECCION DE CONTENEDOR GENERAL*/
+.contGeneral{
+    background-image:url(https://previews.123rf.com/images/_ig0rzh_/_ig0rzh_1807/_ig0rzh_180700018/104761050-weather-forecast-background-climate-change-concept-collage-of-sky-image-with-variety-weather-conditi.jpg);
+    color:white;
+    font-family: Arial;
+    width: 100%;
+    height: 150px;
+}
+.tituloTT{
+    
+}
+/*Seccion de botones*/
+
+.btnCity{
+    color:#f12711;
+    background: transparent;
+    border: 2px solid #f12711;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    padding: 7px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+.btnCity{
+    background-color: #30E1F9;
+    color: black;
+    border: 2px solid #249CAD;
+}
+.btnCity:hover{
+    background-color: #249CAD;
+    color: white;
+}
+
+/*Final seccion de botones*/
+
+/*Seccion de muestra de resultados*/
+.contenido{
+    
+}
+.hrs{
+    margin: 50px;
+    font-size: 50px;
+}
+
+.temp{
+    margin:50px;
+    font-size: 40px;
+}
+
+.lat{
+    margin: 30px;
+    font-size: 15px;
+}
+
+.lon{
+    margin: 30px;
+    font-size: 15px;
+}
+/*Final Seccion de resultados*/
+/*FINAL SECCION DE CONTENEDOR GENERAL*/
